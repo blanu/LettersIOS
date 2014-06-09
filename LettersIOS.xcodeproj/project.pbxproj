@@ -12,6 +12,35 @@
 		CA98F241193D705800CBC6EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA98F23F193D705800CBC6EB /* Main.storyboard */; };
 		CA98F243193D705800CBC6EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA98F242193D705800CBC6EB /* Images.xcassets */; };
 		CA98F24F193D705800CBC6EB /* LettersIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98F24E193D705800CBC6EB /* LettersIOSTests.swift */; };
+		CA98F25D193E3DC100CBC6EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98F25C193E3DC100CBC6EB /* LoginViewController.swift */; };
+		CA98F25F193E3E1500CBC6EB /* BoardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98F25E193E3E1500CBC6EB /* BoardTableViewController.swift */; };
+		CA98F263193E45B400CBC6EB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98F262193E45B400CBC6EB /* Models.swift */; };
+		CA98F267193E497500CBC6EB /* ThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98F266193E497500CBC6EB /* ThreadViewController.swift */; };
+		CA98F269193E4F8E00CBC6EB /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98F268193E4F8E00CBC6EB /* PostTableViewCell.swift */; };
+		CA98F26B193E50F800CBC6EB /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98F26A193E50F800CBC6EB /* PostViewController.swift */; };
+		CA98F277193E764200CBC6EB /* DSJSONRPCError.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F273193E764200CBC6EB /* DSJSONRPCError.m */; };
+		CA98F27C193E765000CBC6EB /* PackRpc.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F27B193E765000CBC6EB /* PackRpc.m */; };
+		CA98F2A1193E76EC00CBC6EB /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F280193E76EC00CBC6EB /* MessagePackPacker.m */; };
+		CA98F2A2193E76EC00CBC6EB /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F282193E76EC00CBC6EB /* MessagePackParser+Streaming.m */; };
+		CA98F2A3193E76EC00CBC6EB /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F284193E76EC00CBC6EB /* MessagePackParser.m */; };
+		CA98F2A4193E76EC00CBC6EB /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = CA98F295193E76EC00CBC6EB /* objectc.c */; };
+		CA98F2A5193E76EC00CBC6EB /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = CA98F296193E76EC00CBC6EB /* unpack.c */; };
+		CA98F2A6193E76EC00CBC6EB /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = CA98F297193E76EC00CBC6EB /* version.c */; };
+		CA98F2A7193E76EC00CBC6EB /* vrefbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = CA98F298193E76EC00CBC6EB /* vrefbuffer.c */; };
+		CA98F2A8193E76EC00CBC6EB /* zone.c in Sources */ = {isa = PBXBuildFile; fileRef = CA98F299193E76EC00CBC6EB /* zone.c */; };
+		CA98F2A9193E76EC00CBC6EB /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F29B193E76EC00CBC6EB /* NSArray+MessagePack.m */; };
+		CA98F2AA193E76EC00CBC6EB /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F29D193E76EC00CBC6EB /* NSData+MessagePack.m */; };
+		CA98F2AB193E76EC00CBC6EB /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F29F193E76EC00CBC6EB /* NSDictionary+MessagePack.m */; };
+		CA98F2AE193E783F00CBC6EB /* Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98F2AD193E783F00CBC6EB /* Letters.swift */; };
+		CA98F2B0193E7AD200CBC6EB /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F2AF193E7AD200CBC6EB /* Test.m */; };
+		CA98F2B8194026E300CBC6EB /* UINavigationController+GZDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F2B7194026E300CBC6EB /* UINavigationController+GZDrawer.m */; };
+		CA98F2BA1940297E00CBC6EB /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98F2B91940297E00CBC6EB /* MenuTableViewController.swift */; };
+		CA98F2BC19424E0600CBC6EB /* BoardsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98F2BB19424E0600CBC6EB /* BoardsTableViewController.swift */; };
+		CA98F2BF19425D4000CBC6EB /* MakeThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98F2BE19425D4000CBC6EB /* MakeThreadViewController.swift */; };
+		CA98F2C81945154200CBC6EB /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F2C11945154200CBC6EB /* TPKeyboardAvoidingCollectionView.m */; };
+		CA98F2C91945154200CBC6EB /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F2C31945154200CBC6EB /* TPKeyboardAvoidingScrollView.m */; };
+		CA98F2CA1945154200CBC6EB /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F2C51945154200CBC6EB /* TPKeyboardAvoidingTableView.m */; };
+		CA98F2CB1945154200CBC6EB /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F2C71945154200CBC6EB /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +63,65 @@
 		CA98F248193D705800CBC6EB /* LettersIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LettersIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA98F24D193D705800CBC6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA98F24E193D705800CBC6EB /* LettersIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersIOSTests.swift; sourceTree = "<group>"; };
+		CA98F25C193E3DC100CBC6EB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		CA98F25E193E3E1500CBC6EB /* BoardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardTableViewController.swift; sourceTree = "<group>"; };
+		CA98F262193E45B400CBC6EB /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CA98F266193E497500CBC6EB /* ThreadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThreadViewController.swift; path = ../ThreadViewController.swift; sourceTree = "<group>"; };
+		CA98F268193E4F8E00CBC6EB /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		CA98F26A193E50F800CBC6EB /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		CA98F26F193E764200CBC6EB /* DSARCHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSARCHelpers.h; sourceTree = "<group>"; };
+		CA98F272193E764200CBC6EB /* DSJSONRPCError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONRPCError.h; sourceTree = "<group>"; };
+		CA98F273193E764200CBC6EB /* DSJSONRPCError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONRPCError.m; sourceTree = "<group>"; };
+		CA98F27A193E765000CBC6EB /* PackRpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackRpc.h; sourceTree = "<group>"; };
+		CA98F27B193E765000CBC6EB /* PackRpc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackRpc.m; sourceTree = "<group>"; };
+		CA98F27E193E76EC00CBC6EB /* MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePack.h; sourceTree = "<group>"; };
+		CA98F27F193E76EC00CBC6EB /* MessagePackPacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePackPacker.h; sourceTree = "<group>"; };
+		CA98F280193E76EC00CBC6EB /* MessagePackPacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagePackPacker.m; sourceTree = "<group>"; };
+		CA98F281193E76EC00CBC6EB /* MessagePackParser+Streaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MessagePackParser+Streaming.h"; sourceTree = "<group>"; };
+		CA98F282193E76EC00CBC6EB /* MessagePackParser+Streaming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MessagePackParser+Streaming.m"; sourceTree = "<group>"; };
+		CA98F283193E76EC00CBC6EB /* MessagePackParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePackParser.h; sourceTree = "<group>"; };
+		CA98F284193E76EC00CBC6EB /* MessagePackParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagePackParser.m; sourceTree = "<group>"; };
+		CA98F287193E76EC00CBC6EB /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		CA98F288193E76EC00CBC6EB /* pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pack.h; sourceTree = "<group>"; };
+		CA98F289193E76EC00CBC6EB /* pack_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pack_define.h; sourceTree = "<group>"; };
+		CA98F28A193E76EC00CBC6EB /* pack_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pack_template.h; sourceTree = "<group>"; };
+		CA98F28B193E76EC00CBC6EB /* sbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbuffer.h; sourceTree = "<group>"; };
+		CA98F28C193E76EC00CBC6EB /* sysdep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sysdep.h; sourceTree = "<group>"; };
+		CA98F28D193E76EC00CBC6EB /* unpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpack.h; sourceTree = "<group>"; };
+		CA98F28E193E76EC00CBC6EB /* unpack_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpack_define.h; sourceTree = "<group>"; };
+		CA98F28F193E76EC00CBC6EB /* unpack_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpack_template.h; sourceTree = "<group>"; };
+		CA98F290193E76EC00CBC6EB /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		CA98F291193E76EC00CBC6EB /* vrefbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vrefbuffer.h; sourceTree = "<group>"; };
+		CA98F292193E76EC00CBC6EB /* zbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbuffer.h; sourceTree = "<group>"; };
+		CA98F293193E76EC00CBC6EB /* zone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zone.h; sourceTree = "<group>"; };
+		CA98F294193E76EC00CBC6EB /* msgpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgpack.h; sourceTree = "<group>"; };
+		CA98F295193E76EC00CBC6EB /* objectc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = objectc.c; sourceTree = "<group>"; };
+		CA98F296193E76EC00CBC6EB /* unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unpack.c; sourceTree = "<group>"; };
+		CA98F297193E76EC00CBC6EB /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		CA98F298193E76EC00CBC6EB /* vrefbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vrefbuffer.c; sourceTree = "<group>"; };
+		CA98F299193E76EC00CBC6EB /* zone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zone.c; sourceTree = "<group>"; };
+		CA98F29A193E76EC00CBC6EB /* NSArray+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MessagePack.h"; sourceTree = "<group>"; };
+		CA98F29B193E76EC00CBC6EB /* NSArray+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MessagePack.m"; sourceTree = "<group>"; };
+		CA98F29C193E76EC00CBC6EB /* NSData+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MessagePack.h"; sourceTree = "<group>"; };
+		CA98F29D193E76EC00CBC6EB /* NSData+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MessagePack.m"; sourceTree = "<group>"; };
+		CA98F29E193E76EC00CBC6EB /* NSDictionary+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MessagePack.h"; sourceTree = "<group>"; };
+		CA98F29F193E76EC00CBC6EB /* NSDictionary+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MessagePack.m"; sourceTree = "<group>"; };
+		CA98F2AD193E783F00CBC6EB /* Letters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Letters.swift; sourceTree = "<group>"; };
+		CA98F2AF193E7AD200CBC6EB /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		CA98F2B1193E7BD600CBC6EB /* Letters-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Letters-Bridging-Header.h"; sourceTree = "<group>"; };
+		CA98F2B6194026E300CBC6EB /* UINavigationController+GZDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+GZDrawer.h"; sourceTree = "<group>"; };
+		CA98F2B7194026E300CBC6EB /* UINavigationController+GZDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+GZDrawer.m"; sourceTree = "<group>"; };
+		CA98F2B91940297E00CBC6EB /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		CA98F2BB19424E0600CBC6EB /* BoardsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardsTableViewController.swift; sourceTree = "<group>"; };
+		CA98F2BE19425D4000CBC6EB /* MakeThreadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeThreadViewController.swift; sourceTree = "<group>"; };
+		CA98F2C01945154200CBC6EB /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		CA98F2C11945154200CBC6EB /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		CA98F2C21945154200CBC6EB /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		CA98F2C31945154200CBC6EB /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		CA98F2C41945154200CBC6EB /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		CA98F2C51945154200CBC6EB /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		CA98F2C61945154200CBC6EB /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		CA98F2C71945154200CBC6EB /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +145,8 @@
 		CA98F22D193D705700CBC6EB = {
 			isa = PBXGroup;
 			children = (
+				CA98F2AF193E7AD200CBC6EB /* Test.m */,
+				CA98F2B1193E7BD600CBC6EB /* Letters-Bridging-Header.h */,
 				CA98F238193D705800CBC6EB /* LettersIOS */,
 				CA98F24B193D705800CBC6EB /* LettersIOSTests */,
 				CA98F237193D705800CBC6EB /* Products */,
@@ -75,8 +165,12 @@
 		CA98F238193D705800CBC6EB /* LettersIOS */ = {
 			isa = PBXGroup;
 			children = (
+				CA98F2BD19425AD500CBC6EB /* iPad */,
+				CA98F26D193E752700CBC6EB /* Libraries */,
+				CA98F26C193E751700CBC6EB /* Controller */,
+				CA98F261193E455100CBC6EB /* Model */,
+				CA98F260193E3E1C00CBC6EB /* View */,
 				CA98F23B193D705800CBC6EB /* AppDelegate.swift */,
-				CA98F23D193D705800CBC6EB /* ViewController.swift */,
 				CA98F23F193D705800CBC6EB /* Main.storyboard */,
 				CA98F242193D705800CBC6EB /* Images.xcassets */,
 				CA98F239193D705800CBC6EB /* Supporting Files */,
@@ -107,6 +201,155 @@
 				CA98F24D193D705800CBC6EB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA98F260193E3E1C00CBC6EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F23D193D705800CBC6EB /* ViewController.swift */,
+				CA98F2B91940297E00CBC6EB /* MenuTableViewController.swift */,
+				CA98F25C193E3DC100CBC6EB /* LoginViewController.swift */,
+				CA98F2BB19424E0600CBC6EB /* BoardsTableViewController.swift */,
+				CA98F25E193E3E1500CBC6EB /* BoardTableViewController.swift */,
+				CA98F266193E497500CBC6EB /* ThreadViewController.swift */,
+				CA98F268193E4F8E00CBC6EB /* PostTableViewCell.swift */,
+				CA98F26A193E50F800CBC6EB /* PostViewController.swift */,
+				CA98F2BE19425D4000CBC6EB /* MakeThreadViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CA98F261193E455100CBC6EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F262193E45B400CBC6EB /* Models.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CA98F26C193E751700CBC6EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F2AD193E783F00CBC6EB /* Letters.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CA98F26D193E752700CBC6EB /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F2CC1945154900CBC6EB /* TPKeyboardAvoiding */,
+				CA98F2B5194026A600CBC6EB /* DrawerFramework */,
+				CA98F27D193E76EC00CBC6EB /* msgpack-objectivec */,
+				CA98F279193E765000CBC6EB /* PackRPC */,
+				CA98F26E193E764200CBC6EB /* DSJSONRPC */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		CA98F26E193E764200CBC6EB /* DSJSONRPC */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F26F193E764200CBC6EB /* DSARCHelpers.h */,
+				CA98F272193E764200CBC6EB /* DSJSONRPCError.h */,
+				CA98F273193E764200CBC6EB /* DSJSONRPCError.m */,
+			);
+			path = DSJSONRPC;
+			sourceTree = SOURCE_ROOT;
+		};
+		CA98F279193E765000CBC6EB /* PackRPC */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F27A193E765000CBC6EB /* PackRpc.h */,
+				CA98F27B193E765000CBC6EB /* PackRpc.m */,
+			);
+			path = PackRPC;
+			sourceTree = SOURCE_ROOT;
+		};
+		CA98F27D193E76EC00CBC6EB /* msgpack-objectivec */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F27E193E76EC00CBC6EB /* MessagePack.h */,
+				CA98F27F193E76EC00CBC6EB /* MessagePackPacker.h */,
+				CA98F280193E76EC00CBC6EB /* MessagePackPacker.m */,
+				CA98F281193E76EC00CBC6EB /* MessagePackParser+Streaming.h */,
+				CA98F282193E76EC00CBC6EB /* MessagePackParser+Streaming.m */,
+				CA98F283193E76EC00CBC6EB /* MessagePackParser.h */,
+				CA98F284193E76EC00CBC6EB /* MessagePackParser.m */,
+				CA98F285193E76EC00CBC6EB /* msgpack_src */,
+				CA98F29A193E76EC00CBC6EB /* NSArray+MessagePack.h */,
+				CA98F29B193E76EC00CBC6EB /* NSArray+MessagePack.m */,
+				CA98F29C193E76EC00CBC6EB /* NSData+MessagePack.h */,
+				CA98F29D193E76EC00CBC6EB /* NSData+MessagePack.m */,
+				CA98F29E193E76EC00CBC6EB /* NSDictionary+MessagePack.h */,
+				CA98F29F193E76EC00CBC6EB /* NSDictionary+MessagePack.m */,
+			);
+			path = "msgpack-objectivec";
+			sourceTree = "<group>";
+		};
+		CA98F285193E76EC00CBC6EB /* msgpack_src */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F286193E76EC00CBC6EB /* msgpack */,
+				CA98F294193E76EC00CBC6EB /* msgpack.h */,
+				CA98F295193E76EC00CBC6EB /* objectc.c */,
+				CA98F296193E76EC00CBC6EB /* unpack.c */,
+				CA98F297193E76EC00CBC6EB /* version.c */,
+				CA98F298193E76EC00CBC6EB /* vrefbuffer.c */,
+				CA98F299193E76EC00CBC6EB /* zone.c */,
+			);
+			path = msgpack_src;
+			sourceTree = "<group>";
+		};
+		CA98F286193E76EC00CBC6EB /* msgpack */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F287193E76EC00CBC6EB /* object.h */,
+				CA98F288193E76EC00CBC6EB /* pack.h */,
+				CA98F289193E76EC00CBC6EB /* pack_define.h */,
+				CA98F28A193E76EC00CBC6EB /* pack_template.h */,
+				CA98F28B193E76EC00CBC6EB /* sbuffer.h */,
+				CA98F28C193E76EC00CBC6EB /* sysdep.h */,
+				CA98F28D193E76EC00CBC6EB /* unpack.h */,
+				CA98F28E193E76EC00CBC6EB /* unpack_define.h */,
+				CA98F28F193E76EC00CBC6EB /* unpack_template.h */,
+				CA98F290193E76EC00CBC6EB /* version.h */,
+				CA98F291193E76EC00CBC6EB /* vrefbuffer.h */,
+				CA98F292193E76EC00CBC6EB /* zbuffer.h */,
+				CA98F293193E76EC00CBC6EB /* zone.h */,
+			);
+			path = msgpack;
+			sourceTree = "<group>";
+		};
+		CA98F2B5194026A600CBC6EB /* DrawerFramework */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F2B6194026E300CBC6EB /* UINavigationController+GZDrawer.h */,
+				CA98F2B7194026E300CBC6EB /* UINavigationController+GZDrawer.m */,
+			);
+			name = DrawerFramework;
+			sourceTree = "<group>";
+		};
+		CA98F2BD19425AD500CBC6EB /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		CA98F2CC1945154900CBC6EB /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F2C01945154200CBC6EB /* TPKeyboardAvoidingCollectionView.h */,
+				CA98F2C11945154200CBC6EB /* TPKeyboardAvoidingCollectionView.m */,
+				CA98F2C21945154200CBC6EB /* TPKeyboardAvoidingScrollView.h */,
+				CA98F2C31945154200CBC6EB /* TPKeyboardAvoidingScrollView.m */,
+				CA98F2C41945154200CBC6EB /* TPKeyboardAvoidingTableView.h */,
+				CA98F2C51945154200CBC6EB /* TPKeyboardAvoidingTableView.m */,
+				CA98F2C61945154200CBC6EB /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				CA98F2C71945154200CBC6EB /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = TPKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +451,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA98F27C193E765000CBC6EB /* PackRpc.m in Sources */,
+				CA98F2BF19425D4000CBC6EB /* MakeThreadViewController.swift in Sources */,
+				CA98F26B193E50F800CBC6EB /* PostViewController.swift in Sources */,
+				CA98F269193E4F8E00CBC6EB /* PostTableViewCell.swift in Sources */,
+				CA98F2A6193E76EC00CBC6EB /* version.c in Sources */,
+				CA98F2A4193E76EC00CBC6EB /* objectc.c in Sources */,
+				CA98F2C81945154200CBC6EB /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				CA98F277193E764200CBC6EB /* DSJSONRPCError.m in Sources */,
+				CA98F2A5193E76EC00CBC6EB /* unpack.c in Sources */,
+				CA98F2C91945154200CBC6EB /* TPKeyboardAvoidingScrollView.m in Sources */,
+				CA98F2B8194026E300CBC6EB /* UINavigationController+GZDrawer.m in Sources */,
+				CA98F2A7193E76EC00CBC6EB /* vrefbuffer.c in Sources */,
+				CA98F2A9193E76EC00CBC6EB /* NSArray+MessagePack.m in Sources */,
+				CA98F2BC19424E0600CBC6EB /* BoardsTableViewController.swift in Sources */,
+				CA98F2B0193E7AD200CBC6EB /* Test.m in Sources */,
+				CA98F25F193E3E1500CBC6EB /* BoardTableViewController.swift in Sources */,
+				CA98F25D193E3DC100CBC6EB /* LoginViewController.swift in Sources */,
+				CA98F2AB193E76EC00CBC6EB /* NSDictionary+MessagePack.m in Sources */,
+				CA98F267193E497500CBC6EB /* ThreadViewController.swift in Sources */,
+				CA98F263193E45B400CBC6EB /* Models.swift in Sources */,
+				CA98F2A3193E76EC00CBC6EB /* MessagePackParser.m in Sources */,
+				CA98F2CA1945154200CBC6EB /* TPKeyboardAvoidingTableView.m in Sources */,
+				CA98F2BA1940297E00CBC6EB /* MenuTableViewController.swift in Sources */,
+				CA98F2A1193E76EC00CBC6EB /* MessagePackPacker.m in Sources */,
+				CA98F2A8193E76EC00CBC6EB /* zone.c in Sources */,
+				CA98F2A2193E76EC00CBC6EB /* MessagePackParser+Streaming.m in Sources */,
+				CA98F2AE193E783F00CBC6EB /* Letters.swift in Sources */,
+				CA98F2CB1945154200CBC6EB /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				CA98F23E193D705800CBC6EB /* ViewController.swift in Sources */,
+				CA98F2AA193E76EC00CBC6EB /* NSData+MessagePack.m in Sources */,
 				CA98F23C193D705800CBC6EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,9 +597,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = LettersIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Letters-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -336,9 +612,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = LettersIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Letters-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
